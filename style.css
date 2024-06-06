@@ -19,21 +19,68 @@ body {
 
 .main-container {
     display: flex;
+    gap:1rem;
     justify-content: center;
     border-radius: 2rem;
     box-shadow: 2px 2px 18px  gray;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
+/* results section styles */
 .results-container {
     background: blue;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 2rem;
+    flex: 50% 1 1;
+    padding: 2rem;
+}
+
+.title-paragraph {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+
+}
+
+.number-container {
+    margin-bottom: 2rem;
+    border:1px solid yellow;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    padding: 2rem;
+}
+
+.number-container h1 {
+    font-size: 7rem;
+    text-align: center;
+}
+
+.number-container span {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.results-container h2 {
+    font-size: 3.8rem;
+    margin-bottom: 2rem;
+}
+
+.remark-paragraph {
+    font-size: 1.6rem;
+    /* margin-bottom: 1rem; */
+    padding: 0 10%;
+    text-align: center;
 }
 
 /* summary section styles */
 .summary-container {
     border-radius: 0 2rem 2rem 0;
+    display: flex;
+    flex-direction: column;
+    flex: 50% 1 1;
+    padding: 2rem;
 }
