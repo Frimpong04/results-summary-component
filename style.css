@@ -57,8 +57,7 @@ body {
     text-align: center;
 }
 
-.number-container span {
-    display: block;
+.number-container p {
     margin-bottom: 1rem;
     text-align: center;
     font-size: 1.6rem;
@@ -72,7 +71,7 @@ body {
 .remark-paragraph {
     font-size: 1.6rem;
     /* margin-bottom: 1rem; */
-    padding: 0 10%;
+    padding: 0 15%;
     text-align: center;
 }
 
@@ -83,4 +82,28 @@ body {
     flex-direction: column;
     flex: 50% 1 1;
     padding: 2rem;
+}
+
+.summary-title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+
+.container p {
+    font-size: 1.6rem;
+}
+
+
+button {
+    font-size: 1.6rem;
+    padding: 1rem;
+    border-radius: 6rem;
+    border: none;
+    outline: none;
 }
