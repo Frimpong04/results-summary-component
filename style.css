@@ -74,7 +74,8 @@ body {
 .title-paragraph {
     font-size: 1.6rem;
     margin-bottom: 2rem;
-
+    color: var(--Light-lavender);
+    font-family: medium;
 }
 
 .number-container {
@@ -91,26 +92,34 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
+    color: var(--White);
+    font-family: bold;
+    letter-spacing: -5px;
 }
 
 
 .number-container p {
     margin-bottom: 1rem;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-top: -1.2rem;
+    color: var(--Light-lavender);
 }
 
 .results-container h2 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+    color: var(--White);
+    font-family: Normal;
 }
 
 .remark-paragraph {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
-    padding: 0 8%;
+    padding: 0 3%;
     text-align: center;
+    color: var(--Light-lavender);
+    font-family: Normal;
 }
 
 /* summary section styles */
@@ -191,7 +200,7 @@ button {
     border-radius: 6rem;
     border: none;
     outline: none;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     background-color: var(--Dark-gray-blue);
     color: var(--White);
 }
