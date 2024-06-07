@@ -55,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    box-shadow: 2px 2px 18px  gray;
+    box-shadow:var(--Pale-blue) 0px 48px 100px 0px;
     margin-top: 15%;
     width:48rem;
 }
