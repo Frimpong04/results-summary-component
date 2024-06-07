@@ -62,7 +62,7 @@ body {
 
 /* results section styles */
 .results-container {
-    background: blue;
+    background-image: linear-gradient(to top, hsl(234, 85%, 45%), hsla(256, 72%, 46%, 1));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,11 +80,12 @@ body {
 
 .number-container {
     margin-bottom: 2rem;
-    border:1px solid yellow;
+    /* border:1px solid yellow; */
     width: 14rem;
     height: 14rem;
     border-radius: 50%;
     padding: 2rem;
+    background-image: linear-gradient(to bottom,  #3e1fa6, #4633EE);
 }
 
 .number-container h1 {
